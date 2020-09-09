@@ -26,5 +26,5 @@ Apache Ranger e Atlas seria a solução para gerenciamento dos metadados, classi
 * Complexidade -> Em relação a infraestrtutura, precisamos garantir o monitoramento, testes, administração dos recusros e a inclusão de novos processos e serviços.
 * Segurança -> Como Temos mais serviços expostos a rede, a arquitetura está mais exposta a potencial invasores.
 * Gerenciamento das transaçoes -> Devido ao seu modelo assincrono, podemos ter problemas na ordem dos eventos,inconsistencia de dados, duplicidade de registros e suporte a transaçoes ACID. 
-* Gerenciamento dos dados -> Precisamos garantir o gerenciamento dos metadadados,Catalogo e administraçãos dos eventos.
+* Gerenciamento dos dados -> Precisamos garantir o gerenciamento dos metadadados,Catálogo e administraçãos dos eventos.
 
