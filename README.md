@@ -5,6 +5,8 @@ Levando em conta duas fontes de dados sendo: um banco relacional e uma API de st
 
 Baseado no ecossistema Hadoop essa foi a solução proposta:
 
+![Arquitetura_Eventdriven](https://github.com/thiagobtr/teste_engenheiro_de_dados/Arquitetura_EventDriven.jpg)
+
 É uma solução de microsserviços que são independentes mas se comunicam entre si.
 
 **Vantagens:**
