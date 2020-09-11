@@ -42,7 +42,6 @@ Serviço escolhido: <br>
 **Arquivo de saida** -> formato csv. <br>
 Este arquivo de saida pode ser utilizado em um processo de ETL para carregar um banco de dados, data lake, ou mesmo servir uma aplicação de self-BI
 
-Execução
 Abaixo a estrutura do diretorio para execução do script
 
 	- teste_engenheiro_de_dados-master
