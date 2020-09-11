@@ -37,9 +37,9 @@ Uma coluna com o nome "age_range" sendo o valor de 1 para pessoas de 0-16 anos, 
 O serviço de execução fica a seu critério, podendo utilizar tanto serviços locais como serviços em cloud. Justificar brevemente o serviço escolhido (EMR, Glue, Zeppelin, etc.) e o formato do arquivo final. Incluir também o passo a passo de como executar o script.
 
 Serviço escolhido: 
-**ambiente local - Jupyter notebook**
-**Motivo** facil reprodução e interatividade.
-**Arquivo de saida** formato csv. 
+**ambiente local - Jupyter notebook** <br>
+**Motivo** facil reprodução e interatividade.<br>
+**Arquivo de saida** formato csv. <br>
 Este arquivo de saida pode ser utilizado em um processo de ETL para carregar um banco de dados, data lake, ou mesmo servir uma aplicação de self-BI
 
 
