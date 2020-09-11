@@ -42,4 +42,23 @@ Serviço escolhido: <br>
 **Arquivo de saida** -> formato csv. <br>
 Este arquivo de saida pode ser utilizado em um processo de ETL para carregar um banco de dados, data lake, ou mesmo servir uma aplicação de self-BI
 
+Execução
+Abaixo a estrutura do diretorio para execução do script
+
+	- teste_engenheiro_de_dados-master
+		○ cycle-share-dataset
+			§ Functions.py
+			§ Station.csv
+			§ Trip.csv
+			§ Weather.csv
+	- ScriptPySpark.ipynb
+	- ScriptPySpark.py
+	- Output
+		○ _SUCCESS
+		○ part-00000-56c64f82-7828-4293-9a37-8ae284cd6a79-c000.csv
+
+Script pypspark para execução: ScriptPySpark.ipynb
+O arquivo "ScriptPySpark.py" é uma versão em python do script "ScriptPySpark.ipynb"
+
+
 
