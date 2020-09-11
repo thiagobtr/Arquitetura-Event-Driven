@@ -28,3 +28,18 @@ Esta arquitetura estaria localizada em um ambiente em nuvem.
 * Gerenciamento das transaçoes -> Devido ao seu modelo assincrono, podemos ter problemas na ordem dos eventos, inconsistencia de dados, duplicidade de registros e suporte a transaçoes ACID.
 * Gerenciamento dos dados -> Precisamos garantir o gerenciamento dos metadadados, catálogo e administraçãos dos eventos.
 
+PARTE 02
+Seu objetivo é criar um script PYSPARK, que gere um arquivo único de output, utilizando os 3 arquivos em csv (station.csv, trip.csv e weather.csv), contendo todos os dados de viagens, acrescidos de:
+Latitude/Longitude da estação de início e de fim.
+Uma coluna com o nome "long_trip" de valor booleano sendo 'true' para viagens superiores a 10 minutos.
+Condição meteorológica no dia da viagem (coluna events da tabela weather).
+Uma coluna com o nome "age_range" sendo o valor de 1 para pessoas de 0-16 anos, 2 de 17-25, 3 de 26-50 e 4 para 50+.
+O serviço de execução fica a seu critério, podendo utilizar tanto serviços locais como serviços em cloud. Justificar brevemente o serviço escolhido (EMR, Glue, Zeppelin, etc.) e o formato do arquivo final. Incluir também o passo a passo de como executar o script.
+
+Serviço escolhido: 
+** ambiente local - Jupyter notebook **
+** Motivo ** facil reprodução e interatividade.
+** Arquivo de saida ** formato csv. 
+Este arquivo de saida pode ser utilizado em um processo de ETL para carregar um banco de dados, data lake, ou mesmo servir uma aplicação de self-BI
+
+
