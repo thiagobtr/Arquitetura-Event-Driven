@@ -36,7 +36,7 @@ Condição meteorológica no dia da viagem (coluna events da tabela weather).
 Uma coluna com o nome "age_range" sendo o valor de 1 para pessoas de 0-16 anos, 2 de 17-25, 3 de 26-50 e 4 para 50+.
 O serviço de execução fica a seu critério, podendo utilizar tanto serviços locais como serviços em cloud. Justificar brevemente o serviço escolhido (EMR, Glue, Zeppelin, etc.) e o formato do arquivo final. Incluir também o passo a passo de como executar o script.
 
-Serviço escolhido: 
+Serviço escolhido: <br>
 **ambiente local** -> Jupyter notebook <br>
 **Motivo** -> facil reprodução e interatividade.<br>
 **Arquivo de saida** -> formato csv. <br>
