@@ -1,4 +1,4 @@
-# teste_engenheiro_de_dados
+# Arquitetura Event Driven - Engenheiro de dados
 
 **PARTE 01**
 Levando em conta duas fontes de dados sendo: um banco relacional e uma API de stream de dados, sua primeira missão será desenhar uma arquitetura orientada a EVENTOS para a ingestão near real-time destes dados em um datalake. Justifique brevemente sua escolha levantando os pontos positivos e negativos da solução.
